@@ -1,6 +1,6 @@
 {
   "name": "jscs-bem",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "jscs bem plugin",
   "main": "lib/index.js",
   "scripts": {

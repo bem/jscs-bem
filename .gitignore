@@ -1,0 +1,12 @@
+.idea
+*.sublime-*
+.project
+.settings
+.*.swp
+*~.nib
+*.lock
+*.DS_Store
+.Trashes
+
+node_modules
+/npm-debug.log

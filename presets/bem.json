@@ -1,0 +1,31 @@
+{
+    "preset" : "yandex",
+
+    "disallowMultipleVarDecl" : null,
+    "requireCurlyBraces" : null,
+    "requireSpacesInConditionalExpression" : null,
+    "maximumLineLength" : null,
+    "requireSpacesInAnonymousFunctionExpression" : null,
+    "disallowSpaceAfterObjectKeys" : null,
+    "disallowSpacesInsideObjectBrackets" : null,
+    "disallowImplicitTypeConversion" : null,
+    "disallowQuotedKeysInObjects" : null,
+    "requireDotNotation" : null,
+
+    "disallowOperatorBeforeLineBreak" : ["."],
+    "disallowSpaceAfterKeywords" : ["if", "for", "while", "switch"],
+    "requireSpaceAfterKeywords" : ["do", "else"],
+
+    "disallowSpacesInCallExpression" : true,
+    "disallowSpacesInConditionalExpression" : {
+        "afterTest": true,
+        "beforeConsequent": false,
+        "afterConsequent": false,
+        "beforeAlternate": false
+    },
+
+    "requireSpaceAfterObjectKeys" : true,
+    "requireSpaceBeforeKeywords" : ["else", "while", "catch"],
+
+    "requireSpacesInsideObjectBrackets" : "all"
+}

@@ -1,0 +1,31 @@
+{
+  "name": "jscs-bem",
+  "version": "0.1.0",
+  "description": "jscs bem plugin",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "jshint && jscs lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zxqfox/jscs-bem"
+  },
+  "keywords": [
+    "jscs",
+    "bem",
+    "preset"
+  ],
+  "author": "Alexej Yaroshevich <zxqfox@gmail.com> (http://github.com/zxqfox)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zxqfox/jscs-bem/issues"
+  },
+  "homepage": "https://github.com/zxqfox/jscs-bem",
+  "peerDependencies": {
+    "jscs": "1.8.0+"
+  },
+  "devDependencies": {
+    "jscs": "1.8.0+",
+    "mocha": "^2.1.0"
+  }
+}

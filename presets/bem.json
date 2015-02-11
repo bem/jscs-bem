@@ -2,6 +2,8 @@
     "preset" : "yandex",
 
     "disallowMultipleVarDecl" : null,
+    "requireMultipleVarDecl" : true,
+
     "requireCurlyBraces" : null,
     "requireSpacesInConditionalExpression" : null,
     "maximumLineLength" : null,

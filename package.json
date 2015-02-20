@@ -4,7 +4,9 @@
   "description": "jscs bem plugin",
   "main": "lib/index.js",
   "scripts": {
-    "test": "jshint && jscs lib"
+    "lint": "jshint && jscs lib",
+    "test-preset": "jscs -c test/presets/bem.jscsrc test/presets/bem.js",
+    "test": "npm run lint && npm run test-presets"
   },
   "repository": {
     "type": "git",

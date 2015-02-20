@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/zxqfox/jscs-bem"
+    "url": "https://github.com/bem/jscs-bem"
   },
   "keywords": [
     "jscs",
@@ -18,12 +18,9 @@
   "author": "Alexej Yaroshevich <zxqfox@gmail.com> (http://github.com/zxqfox)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/zxqfox/jscs-bem/issues"
+    "url": "https://github.com/bem/jscs-bem/issues"
   },
-  "homepage": "https://github.com/zxqfox/jscs-bem",
-  "peerDependencies": {
-    "jscs": ">=1.8.0 <2.0.0"
-  },
+  "homepage": "https://github.com/bem/jscs-bem",
   "devDependencies": {
     "jscs": ">=1.8.0 <2.0.0",
     "mocha": "^2.1.0"

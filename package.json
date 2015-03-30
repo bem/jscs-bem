@@ -6,7 +6,7 @@
   "scripts": {
     "lint": "jshint && jscs lib",
     "test-preset": "jscs -c test/presets/bem.jscsrc test/presets/bem.js",
-    "test": "npm run lint && npm run test-presets"
+    "test": "npm run lint && npm run test-preset"
   },
   "repository": {
     "type": "git",
@@ -25,6 +25,8 @@
   "homepage": "https://github.com/bem/jscs-bem",
   "devDependencies": {
     "jscs": ">=1.8.0 <2.0.0",
-    "mocha": "^2.1.0"
+    "mocha": "^2.1.0",
+    "jshint": "^2.6.3",
+    "jscs-jsdoc": "^0.4.5"
   }
 }

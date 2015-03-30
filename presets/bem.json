@@ -13,6 +13,7 @@
     "disallowImplicitTypeConversion" : null,
     "disallowQuotedKeysInObjects" : null,
     "requireDotNotation" : null,
+    "validateIndentation" : null,
 
     "disallowOperatorBeforeLineBreak" : ["."],
     "disallowSpaceAfterKeywords" : ["if", "for", "while", "switch"],
@@ -29,5 +30,7 @@
     "requireSpaceAfterObjectKeys" : true,
     "requireSpaceBeforeKeywords" : ["else", "while", "catch"],
 
-    "requireSpacesInsideObjectBrackets" : "all"
+    "requireSpacesInsideObjectBrackets" : "all",
+
+    "requireSemicolons": null
 }

@@ -24,9 +24,9 @@
   },
   "homepage": "https://github.com/bem/jscs-bem",
   "devDependencies": {
-    "jscs": ">=1.8.0 <2.0.0",
-    "mocha": "^2.1.0",
-    "jshint": "^2.6.3",
-    "jscs-jsdoc": "^0.4.5"
+    "jscs": "^2.5.1",
+    "jscs-jsdoc": "^1.2.0",
+    "jshint": "^2.9.1-rc1",
+    "mocha": "^2.3.3"
   }
 }

@@ -151,6 +151,47 @@ doAsync(function() {
 
 // Comments with url can have maximum line length > 120 ................... https://github.com/yandex/codestyle/blob/master/js.md
 
+// `i-bem` should be named BEM
+// `i-bem__dom` should be named BEMDOM
+modules.define('something-truly', ['i-bem__dom', 'something-else'], function(provide, BEMDOM, SomethingElse) {
+
+// Should use `this.name` if possible for BEMDOM.decl
+// Should have @lends jsdoc tag
+// Should use provide right in place with declaration if possible
+provide(BEMDOM.decl(this.name, /** @lends something-truly.prototype */ {
+    // Modifier names and values should have single quotes
+    beforeSetMod : {
+        'hovered' : {
+            'true' : function() {
+            }
+        }
+    },
+
+    // Should be line-break between mods declarations
+    onSetMod : {
+        // for `any` value should be used a single function
+        'checked' : function(modName, modValue) {
+        },
+
+        // for the rest of value the star (`'*'`) can be used
+        'some' : {
+            'thing' : function() {},
+            '*' : function() {}
+        },
+
+        'disabled' : {
+            'true' : function() {
+            },
+            '' : function() {
+            }
+        }
+    }
+}, /** @lends something-truly */ {
+    live : true
+}));
+
+});
+
 /**
  * Test jsdoc validation.
  *
